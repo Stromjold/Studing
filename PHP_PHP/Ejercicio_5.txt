@@ -1,0 +1,29 @@
+¿Que es la concatenacion?
+
+- Esta ews la operacion que permite unir o convinar cadena de texto (string) y variables en php.
+
+Sintasis basica
+
+<?php string1 . string2
+
+1. Concatenacion basica
+
+<?php
+$nombre = "Miguel";
+echo "Hola " . $nombre; // Muestra: Hola Miguel
+
+2. Multiples concatenaciones
+
+<?php
+$nombre = "Miguel";
+$apellido = "García";
+echo $nombre . " " . $apellido; // Muestra: Miguel García
+
+3. Dos formas de hacer lo mismo
+
+<?php
+// Usando concatenación
+echo "Hola " . $nombre . ", bienvenido";
+
+// Usando variables dentro de comillas dobles (interpolación)
+echo "Hola $nombre, bienvenido";
